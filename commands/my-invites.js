@@ -30,7 +30,6 @@ module.exports = {
           { name: '🏅 Classement', value: position > 0 ? `#${position}` : 'Pas encore classé', inline: true }
         )
         .setThumbnail(interaction.user.displayAvatarURL({ dynamic: true }))
-        .setFooter({ text: 'Betclic Community | /invites-ranking pour voir le top 10' })
         .setTimestamp();
 
       await interaction.editReply({ embeds: [embed] });

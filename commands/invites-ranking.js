@@ -19,7 +19,6 @@ module.exports = {
               .setColor('#FF6B6B')
               .setTitle('🏆 Classement des Invitations')
               .setDescription('Aucune invitation enregistrée pour le moment.')
-              .setFooter({ text: 'Betclic Community' })
               .setTimestamp(),
           ],
         });
@@ -41,7 +40,6 @@ module.exports = {
         .setColor('#00D4FF')
         .setTitle('🏆 Classement des Invitations')
         .setDescription(description)
-        .setFooter({ text: 'Betclic Community | Utilisez /my-invites pour voir vos stats' })
         .setTimestamp();
 
       await interaction.editReply({ embeds: [embed] });
