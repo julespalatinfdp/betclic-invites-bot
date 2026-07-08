@@ -156,7 +156,7 @@ client.on('interactionCreate', async (interaction) => {
             `🔗 **Ton lien d'invitation personnel :**\n` +
             `https://discord.gg/${code}\n\n` +
             `Partage-le : chaque personne qui rejoint avec ce lien est comptée pour toi. ` +
-            `Ce lien est permanent — il ne changera pas, tu peux revenir le chercher ici quand tu veux.`,
+            `Ce lien est permanent, il ne changera pas : tu peux revenir le chercher ici quand tu veux.`,
         });
       }
 
